@@ -1,0 +1,32 @@
+{
+  "sumary" :
+  [
+    {
+      "category": "Reaction",
+      "score": 80,
+      "icon": "./public/assets/icon/icon-reaction.svg"
+    },
+    {
+      "category": "Memory",
+      "score": 92,
+      "icon": "./public/assets/icon/icon-memory.svg"
+    },
+    {
+      "category": "Verbal",
+      "score": 61,
+      "icon": "./public/assets/icon/icon-verbal.svg"
+    },
+    {
+      "category": "Visual",
+      "score": 72,
+      "icon": "./public/assets/icon/icon-visual.svg"
+    }
+  ],
+ "header": {
+  "header-title": "Your Result",
+  "title": "Greate Job!",
+  "description": "You scored higher than 65% of the people who have taken these tests.",
+  "your-result": "76",
+  "reference-result": "100"
+ }
+}

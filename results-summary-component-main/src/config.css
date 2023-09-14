@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url(../public/assets/fonts/HankenGrotesk-Bold.ttf) format('truetype');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'HankenGrotesk';
+    src: url(../public/assets/fonts/HankenGrotesk-ExtraBold.ttf) format('truetype');
+    font-weight: 900;
+  }
+
+  @font-face {
+    font-family: 'HankenGrotesk';
+    src: url(../public/assets/fonts/HankenGrotesk-Medium.ttf) format('truetype');
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: 'HankenGrotesk';
+    src: url(../public/assets/fonts/HankenGrotesk-VariableFont_wght.ttf) format('truetype');
+    font-weight: 400;
+  }
+
+  :root {
+    /* Cores de texto */
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+
+    /* Cores de fundo */
+    --light-slate-blue-bg: hsl(252, 100%, 67%);
+    --light-royal-blue-bg: hsl(241, 81%, 54%);
+
+    /* Cores com alfa (transparência) */
+    --violet-blue: hsla(256, 72%, 46%, 1);
+    --persian-blue: hsla(241, 72%, 46%, 0);
+
+    /* Cores adicionais */
+    --white: hsl(0, 0%, 100%);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavender: hsl(241, 100%, 89%);
+    --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  body,
+  main {
+    font-size: 18px;
+    width: 100vw;
+    min-height: 100dvh;
+    min-height: 100vh;
+    font-family: 'HankenGrotesk';
+    font-size: 16rem;
+  }
+
+ 
+
+  
